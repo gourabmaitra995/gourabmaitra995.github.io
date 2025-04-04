@@ -1,0 +1,20 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rewarded Ad</title>
+    <script async src="https://www.highperformancegate.com/9167658.js"></script>
+</head>
+<body>
+    <button onclick="showAd()">Watch Ad</button>
+    <script>
+        function showAd() {
+            if (window.RewardedInterstitial) {
+                window.RewardedInterstitial.show();
+            } else {
+                alert("Ad not ready. Please try again.");
+            }
+        }
+    </script>
+</body>
+</html>
